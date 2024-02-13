@@ -11,6 +11,7 @@ namespace PO1_Encapsulation
         string nom;
         int pointsDeVie;
         int pointsDePuissance;
+        //ajouter un attribut nb point de vie maximum
 
         //select les attributs, clic droit, Action rapide ... (premier) > encapsuler...(propriété)
         // le propriété automatiquement nommé comme les attributs avec mais avec une lettre majuscule
@@ -24,6 +25,10 @@ namespace PO1_Encapsulation
                 {
                     pointsDeVie = 0; //l'attribut ici
                 }
+                //else if ()
+                //{
+
+                //}
                 else
                 {
                     pointsDeVie = value;
